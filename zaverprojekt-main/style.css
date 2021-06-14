@@ -1,0 +1,99 @@
+body {
+    width: 100%;
+    height: 95%;
+    background-color: black;
+    margin: auto;
+    padding: 20px;
+    background-image: url("FOTKY/wallpaper_nologo.jpg");
+    float: right;
+    background-attachment: fixed;
+}
+.dropdown-menu{
+  padding: 8px 8px 8px 64px !important;
+  background-color: #111 !important;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  h1 {
+    width: 75%;
+    height: 95%;
+    float: right;
+  }
+  .nadpis{
+      text-align: center;
+  }
+  .bg-dark {
+    color: rgb(0, 0, 0)!important;
+}
+.avatar{
+  float: left;
+}
+.container{
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(22, 22, 22, 0.95);
+  border-bottom: 4px solid orange;
+  border-top:4px solid orange;;
+  padding: 22px 0 58px 0;
+}
+.ohraz{
+  border-top: 1px solid rgba(193, 215, 221, 0.95);
+}
+.navic{
+  font-size: 15px;
+  color: white !important;
+}
+.center{
+   text-align: center;
+}
+.card{
+  width: 300px;
+  height: 225px;
+  
+}
+.jumbotron{
+  background: none !important;
+}
+.col {
+  margin-bottom: 120px;
+}
+.row2{
+  color: orange;
+  margin-left: 10px;
+}
